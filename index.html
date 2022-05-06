@@ -39,331 +39,319 @@
     <title>Bookmark</title>
   </head>
   <body class="text-lg font-sans">
-    <div class="mx-8 my-10">
-      <header class="flex items-center justify-between">
+    <header class="flex items-center justify-between">
+      <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" />
+      <img src="./images/icon-hamburger.svg" alt="Menu Button" />
+    </header>
+    <nav class="hidden desktop:block static">
+      <div>
         <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" />
-        <img src="./images/icon-hamburger.svg" alt="Menu Button" />
-      </header>
-      <nav class="hidden desktop:block static">
+        <img src="./images/icon-close.svg" alt="Close Button" />
+        <div class="mt-8 space-y-4 text-center">
+          <hr class="text-neutral-blue/30" />
+          <p>Features</p>
+          <hr class="text-neutral-blue/30" />
+          <p>Pricing</p>
+          <hr class="text-neutral-blue/30" />
+          <p>Contact</p>
+          <hr class="text-neutral-blue/30" />
+        </div>
+        <button>Login</button>
         <div>
-          <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" />
-          <img src="./images/icon-close.svg" alt="Close Button" />
-          <div class="mt-8 space-y-4 text-center">
-            <hr class="text-neutral-blue/30" />
-            <p>Features</p>
-            <hr class="text-neutral-blue/30" />
-            <p>Pricing</p>
-            <hr class="text-neutral-blue/30" />
-            <p>Contact</p>
-            <hr class="text-neutral-blue/30" />
-          </div>
-          <button>Login</button>
-          <div>
-            <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
-            <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
-          </div>
-        </div>
-      </nav>
-      <main>
-        <section id="hero">
-          <div class="my-16">
-            <img
-              class="w-full z-10"
-              src="./images/illustration-hero.svg"
-              alt="Tablet Application"
-            />
-          </div>
-          <div class="mx-8">
-            <h1 class="text-center text-dark-blue font-semibold text-3xl">
-              A Simple Bookmark Manager
-            </h1>
-            <p class="text-neutral-blue my-2 text-center">
-              A clean and simple interface to organize your favourite websites.
-              Open a new browser tab and see your sites load instantly. Try it
-              for free.
-            </p>
-          </div>
-          <div class="inline-flex justify-center gap-4 my-8 w-full">
-            <button
-              class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold"
-            >
-              Get it on Chrome
-            </button>
-            <button
-              class="bg-white text-neutral-blue py-3 px-4 rounded-md shadow-lg text-semibold"
-            >
-              Get it on Firefox
-            </button>
-          </div>
-        </section>
-
-        <section id="features" class="mt-16">
-          <div class="mx-8">
-            <h2
-              class="text-center text-2xl text-dark-blue font-semibold my-4 tracking-wide"
-            >
-              Features
-            </h2>
-            <p class="text-neutral-blue my-2 text-center">
-              Our aim is to make it quick and easy for you to access your
-              favourite websites. Your bookmarks sync between your devices so
-              you can access them on the go.
-            </p>
-          </div>
-
-          <div class="mt-8 text-center">
-            <hr class="text-neutral-blue/30" />
-            <p
-              class="text-dark-blue/70 hover:text-dark-blue hover:border-b-4 hover:border-soft-red inline-block h-full py-4"
-            >
-              Simple Bookmarking
-            </p>
-            <hr class="text-neutral-blue/30" />
-            <p
-              class="text-dark-blue/70 hover:text-dark-blue hover:border-b-4 hover:border-soft-red inline-block h-full py-4"
-            >
-              Speedy Searching
-            </p>
-            <hr class="text-neutral-blue/30" />
-            <p
-              class="text-dark-blue/70 hover:text-dark-blue hover:border-b-4 hover:border-soft-red inline-block h-full py-4"
-            >
-              Easy Sharing
-            </p>
-            <hr class="text-neutral-blue/30" />
-          </div>
-
-          <div class="relative my-12">
-            <img
-              class="z-10 mx-auto"
-              src="./images/illustration-features-tab-1.svg"
-              alt="Tablet Application"
-            />
-          </div>
-
-          <div class="mt-4 mx-8">
-            <h3 class="text-center text-2xl text-dark-blue font-semibold my-4">
-              Bookmark in one click
-            </h3>
-            <p class="text-neutral-blue my-2 text-center">
-              Organize your bookmarks however you like. Our simple drag-and-drop
-              interface gives you complete control over how you manage your
-              favourite sites.
-            </p>
-          </div>
-        </section>
-        <section id="download" class="mt-16">
-          <div class="mx-8">
-            <h2
-              class="text-center text-2xl text-dark-blue font-semibold my-4 tracking-wide"
-            >
-              Download the extension
-            </h2>
-            <p class="text-neutral-blue my-2 text-center">
-              We’ve got more browsers in the pipeline. Please do let us know if
-              you’ve got a favourite you’d like us to prioritize.
-            </p>
-          </div>
-          <div class="text-center m-12">
-            <div class="shadow-lg my-8 rounded-lg">
-              <img
-                src="./images/logo-chrome.svg"
-                alt="Logo Chrome"
-                class="mx-auto my-4"
-              />
-              <div class="mt-8 mb-12">
-                <h3
-                  class="text-center text-2xl text-dark-blue font-semibold my-4"
-                >
-                  Add to Chrome
-                </h3>
-                <p class="text-neutral-blue my-2 text-center">
-                  Minimum version 62
-                </p>
-              </div>
-              <img src="./images/bg-dots.svg" alt="" class="sr-none w-full" />
-              <div class="p-8">
-                <button
-                  class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold w-full"
-                >
-                  Add & Install Extension
-                </button>
-              </div>
-            </div>
-            <div class="shadow-lg my-8 rounded-lg">
-              <img
-                src="./images/logo-firefox.svg"
-                alt="Logo Firefox"
-                class="mx-auto my-4"
-              />
-              <div class="mt-8 mb-12">
-                <h3
-                  class="text-center text-2xl text-dark-blue font-semibold my-4"
-                >
-                  Add to Firefox
-                </h3>
-                <p class="text-neutral-blue my-2 text-center">
-                  Minimum version 55
-                </p>
-              </div>
-              <img src="./images/bg-dots.svg" alt="" class="sr-none w-full" />
-              <div class="p-8">
-                <button
-                  class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold w-full"
-                >
-                  Add & Install Extension
-                </button>
-              </div>
-            </div>
-            <div class="shadow-lg my-8 rounded-lg">
-              <img
-                src="./images/logo-opera.svg"
-                alt="Logo Opera"
-                class="mx-auto my-4"
-              />
-              <div class="mt-8 mb-12">
-                <h3
-                  class="text-center text-2xl text-dark-blue font-semibold my-4"
-                >
-                  Add to Opera
-                </h3>
-                <p class="text-neutral-blue my-2 text-center">
-                  Minimum version 46
-                </p>
-              </div>
-              <img src="./images/bg-dots.svg" alt="" class="sr-none w-full" />
-              <div class="p-8">
-                <button
-                  class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold w-full"
-                >
-                  Add & Install Extension
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="faq" class="my-16">
-          <div class="mx-8">
-            <h2
-              class="text-center text-2xl text-dark-blue font-semibold my-4 tracking-wide"
-            >
-              Frequently Asked Questions
-            </h2>
-            <p class="text-neutral-blue my-2 text-center">
-              Here are some of our FAQs. If you have any other questions you’d
-              like answered please feel free to email us.
-            </p>
-          </div>
-          <div class="mx-8">
-            <div class="border-b border-neutral-blue/30">
-              <div
-                class="flex items-center justify-between py-4 cursor-pointer"
-              >
-                <h3>What is Bookmark?</h3>
-                <img src="./images/icon-arrow.svg" alt="Arrow down" />
-              </div>
-              <p hidden>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tincidunt justo eget ultricies fringilla. Phasellus blandit
-                ipsum quis quam ornare mattis.
-              </p>
-            </div>
-            <div class="border-b border-neutral-blue/30">
-              <div
-                class="flex items-center justify-between py-4 cursor-pointer"
-              >
-                <h3>How can I request a new browser?</h3>
-                <img src="./images/icon-arrow.svg" alt="Arrow down" />
-              </div>
-              <p hidden>
-                Vivamus luctus eros aliquet convallis ultricies. Mauris augue
-                massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
-                luctus eros aliquet convallis ultricies. Mauris augue massa,
-                ultricies non ligula. Suspendisse imperdie tVivamus luctus eros
-                aliquet convallis ultricies. Mauris augue massa, ultricies non
-                ligula. Suspendisse imperdiet.
-              </p>
-            </div>
-            <div class="border-b border-neutral-blue/30">
-              <div
-                class="flex items-center justify-between py-4 cursor-pointer"
-              >
-                <h3>Is there a mobile app?</h3>
-                <img src="./images/icon-arrow.svg" alt="Arrow down" />
-              </div>
-              <p hidden>
-                Sed consectetur quam id neque fermentum accumsan. Praesent
-                luctus vestibulum dolor, ut condimentum urna vulputate eget.
-                Cras in ligula quis est pharetra mattis sit amet pharetra purus.
-                Sed sollicitudin ex et ultricies bibendum.
-              </p>
-            </div>
-            <div class="border-b border-neutral-blue/30">
-              <div
-                class="flex items-center justify-between py-4 cursor-pointer"
-              >
-                <h3>What about other Chromium browsers?</h3>
-                <img src="./images/icon-arrow.svg" alt="Arrow down" />
-              </div>
-              <p hidden>
-                Integer condimentum ipsum id imperdiet finibus. Vivamus in
-                placerat mi, at euismod dui. Aliquam vitae neque eget nisl
-                gravida pellentesque non ut velit.
-              </p>
-            </div>
-          </div>
-          <div class="text-center my-8">
-            <button
-              class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold"
-            >
-              More Info
-            </button>
-          </div>
-        </section>
-        <section
-          id="contact"
-          class="bg-soft-blue mt-12 text-center mx-8 py-12 px-8"
-        >
-          <div>
-            <p
-              class="uppercase tracking-wider text-white text-sm font-semibold"
-            >
-              35,000+ already joined
-            </p>
-            <h2 class="text-white text-2xl">
-              Stay up-to-date with what we’re doing
-            </h2>
-          </div>
-          <div class="mt-8">
-            <input
-              type="text"
-              class="block mx-auto w-full h-12 rounded-md px-4 placeholder:text-neutral-blue/30 outline-0 text-normal"
-              placeholder="Enter your email address"
-            />
-            <button
-              class="bg-soft-red text-white py-3 px-4 rounded-md text-semibold text-normal w-full my-4"
-            >
-              Contact Us
-            </button>
-          </div>
-        </section>
-      </main>
-      <footer class="bg-dark-blue mt-12 text-center mx-8 py-12 px-8">
-        <img
-          src="./images/logo-bookmark.svg"
-          alt="Bookmark Logo"
-          class="my-8 mx-auto"
-        />
-        <div class="flex flex-col gap-8">
-          <a href="#features" class="uppercase text-white">Features</a>
-          <a href="#download" class="uppercase text-white">Pricing</a>
-          <a href="#contact" class="uppercase text-white">Contact</a>
-        </div>
-        <div class="mt-8 flex gap-4 justify-center">
           <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
           <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
         </div>
-      </footer>
-    </div>
+      </div>
+    </nav>
+    <main>
+      <section id="hero">
+        <div class="my-16">
+          <img
+            class="w-full z-10"
+            src="./images/illustration-hero.svg"
+            alt="Tablet Application"
+          />
+        </div>
+        <div class="mx-8">
+          <h1 class="text-center text-dark-blue font-semibold text-3xl">
+            A Simple Bookmark Manager
+          </h1>
+          <p class="text-neutral-blue my-2 text-center">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+        </div>
+        <div class="inline-flex justify-center gap-4 my-8 w-full">
+          <button
+            class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold"
+          >
+            Get it on Chrome
+          </button>
+          <button
+            class="bg-white text-neutral-blue py-3 px-4 rounded-md shadow-lg text-semibold"
+          >
+            Get it on Firefox
+          </button>
+        </div>
+      </section>
+
+      <section id="features" class="mt-16">
+        <div class="mx-8">
+          <h2
+            class="text-center text-2xl text-dark-blue font-semibold my-4 tracking-wide"
+          >
+            Features
+          </h2>
+          <p class="text-neutral-blue my-2 text-center">
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+        </div>
+
+        <div class="mt-8 text-center">
+          <hr class="text-neutral-blue/30" />
+          <p
+            class="text-dark-blue/70 hover:text-dark-blue hover:border-b-4 hover:border-soft-red inline-block h-full py-4"
+          >
+            Simple Bookmarking
+          </p>
+          <hr class="text-neutral-blue/30" />
+          <p
+            class="text-dark-blue/70 hover:text-dark-blue hover:border-b-4 hover:border-soft-red inline-block h-full py-4"
+          >
+            Speedy Searching
+          </p>
+          <hr class="text-neutral-blue/30" />
+          <p
+            class="text-dark-blue/70 hover:text-dark-blue hover:border-b-4 hover:border-soft-red inline-block h-full py-4"
+          >
+            Easy Sharing
+          </p>
+          <hr class="text-neutral-blue/30" />
+        </div>
+
+        <div class="relative my-12">
+          <img
+            class="z-10 mx-auto"
+            src="./images/illustration-features-tab-1.svg"
+            alt="Tablet Application"
+          />
+        </div>
+
+        <div class="mt-4 mx-8">
+          <h3 class="text-center text-2xl text-dark-blue font-semibold my-4">
+            Bookmark in one click
+          </h3>
+          <p class="text-neutral-blue my-2 text-center">
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+        </div>
+      </section>
+      <section id="download" class="mt-16">
+        <div class="mx-8">
+          <h2
+            class="text-center text-2xl text-dark-blue font-semibold my-4 tracking-wide"
+          >
+            Download the extension
+          </h2>
+          <p class="text-neutral-blue my-2 text-center">
+            We’ve got more browsers in the pipeline. Please do let us know if
+            you’ve got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+        <div class="text-center m-12">
+          <div class="shadow-lg my-8 rounded-lg">
+            <img
+              src="./images/logo-chrome.svg"
+              alt="Logo Chrome"
+              class="mx-auto my-4"
+            />
+            <div class="mt-8 mb-12">
+              <h3
+                class="text-center text-2xl text-dark-blue font-semibold my-4"
+              >
+                Add to Chrome
+              </h3>
+              <p class="text-neutral-blue my-2 text-center">
+                Minimum version 62
+              </p>
+            </div>
+            <img src="./images/bg-dots.svg" alt="" class="sr-none w-full" />
+            <div class="p-8">
+              <button
+                class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold w-full"
+              >
+                Add & Install Extension
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg my-8 rounded-lg">
+            <img
+              src="./images/logo-firefox.svg"
+              alt="Logo Firefox"
+              class="mx-auto my-4"
+            />
+            <div class="mt-8 mb-12">
+              <h3
+                class="text-center text-2xl text-dark-blue font-semibold my-4"
+              >
+                Add to Firefox
+              </h3>
+              <p class="text-neutral-blue my-2 text-center">
+                Minimum version 55
+              </p>
+            </div>
+            <img src="./images/bg-dots.svg" alt="" class="sr-none w-full" />
+            <div class="p-8">
+              <button
+                class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold w-full"
+              >
+                Add & Install Extension
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg my-8 rounded-lg">
+            <img
+              src="./images/logo-opera.svg"
+              alt="Logo Opera"
+              class="mx-auto my-4"
+            />
+            <div class="mt-8 mb-12">
+              <h3
+                class="text-center text-2xl text-dark-blue font-semibold my-4"
+              >
+                Add to Opera
+              </h3>
+              <p class="text-neutral-blue my-2 text-center">
+                Minimum version 46
+              </p>
+            </div>
+            <img src="./images/bg-dots.svg" alt="" class="sr-none w-full" />
+            <div class="p-8">
+              <button
+                class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold w-full"
+              >
+                Add & Install Extension
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq" class="my-16">
+        <div class="mx-8">
+          <h2
+            class="text-center text-2xl text-dark-blue font-semibold my-4 tracking-wide"
+          >
+            Frequently Asked Questions
+          </h2>
+          <p class="text-neutral-blue my-2 text-center">
+            Here are some of our FAQs. If you have any other questions you’d
+            like answered please feel free to email us.
+          </p>
+        </div>
+        <div class="mx-8">
+          <div class="border-b border-neutral-blue/30">
+            <div class="flex items-center justify-between py-4 cursor-pointer">
+              <h3>What is Bookmark?</h3>
+              <img src="./images/icon-arrow.svg" alt="Arrow down" />
+            </div>
+            <p hidden>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+              quis quam ornare mattis.
+            </p>
+          </div>
+          <div class="border-b border-neutral-blue/30">
+            <div class="flex items-center justify-between py-4 cursor-pointer">
+              <h3>How can I request a new browser?</h3>
+              <img src="./images/icon-arrow.svg" alt="Arrow down" />
+            </div>
+            <p hidden>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+              eros aliquet convallis ultricies. Mauris augue massa, ultricies
+              non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+              convallis ultricies. Mauris augue massa, ultricies non ligula.
+              Suspendisse imperdiet.
+            </p>
+          </div>
+          <div class="border-b border-neutral-blue/30">
+            <div class="flex items-center justify-between py-4 cursor-pointer">
+              <h3>Is there a mobile app?</h3>
+              <img src="./images/icon-arrow.svg" alt="Arrow down" />
+            </div>
+            <p hidden>
+              Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+              vestibulum dolor, ut condimentum urna vulputate eget. Cras in
+              ligula quis est pharetra mattis sit amet pharetra purus. Sed
+              sollicitudin ex et ultricies bibendum.
+            </p>
+          </div>
+          <div class="border-b border-neutral-blue/30">
+            <div class="flex items-center justify-between py-4 cursor-pointer">
+              <h3>What about other Chromium browsers?</h3>
+              <img src="./images/icon-arrow.svg" alt="Arrow down" />
+            </div>
+            <p hidden>
+              Integer condimentum ipsum id imperdiet finibus. Vivamus in
+              placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+              pellentesque non ut velit.
+            </p>
+          </div>
+        </div>
+        <div class="text-center my-8">
+          <button
+            class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold"
+          >
+            More Info
+          </button>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="bg-soft-blue mt-12 text-center mx-8 py-12 px-8"
+      >
+        <div>
+          <p class="uppercase tracking-wider text-white text-sm font-semibold">
+            35,000+ already joined
+          </p>
+          <h2 class="text-white text-2xl">
+            Stay up-to-date with what we’re doing
+          </h2>
+        </div>
+        <div class="mt-8">
+          <input
+            type="text"
+            class="block mx-auto w-full h-12 rounded-md px-4 placeholder:text-neutral-blue/30 outline-0 text-normal"
+            placeholder="Enter your email address"
+          />
+          <button
+            class="bg-soft-red text-white py-3 px-4 rounded-md text-semibold text-normal w-full my-4"
+          >
+            Contact Us
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark-blue mt-12 text-center mx-8 py-12 px-8">
+      <img
+        src="./images/logo-bookmark.svg"
+        alt="Bookmark Logo"
+        class="my-8 mx-auto"
+      />
+      <div class="flex flex-col gap-8">
+        <a href="#features" class="uppercase text-white">Features</a>
+        <a href="#download" class="uppercase text-white">Pricing</a>
+        <a href="#contact" class="uppercase text-white">Contact</a>
+      </div>
+      <div class="mt-8 flex gap-4 justify-center">
+        <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
+        <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
+      </div>
+    </footer>
   </body>
 </html>
