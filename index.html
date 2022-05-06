@@ -44,7 +44,7 @@
         <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" />
         <img src="./images/icon-hamburger.svg" alt="Menu Button" />
       </header>
-      <nav class="hidden desktop:block">
+      <nav class="hidden desktop:block static">
         <div>
           <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" />
           <img src="./images/icon-close.svg" alt="Close Button" />
@@ -65,17 +65,14 @@
         </div>
       </nav>
       <main>
-        <div class="relative max-w-md mx-auto">
-          <div
-            class="rounded-l-full bg-soft-blue h-52 w-80 absolute -z-10 right-0 mt-16"
-          ></div>
+        <div class="my-16">
           <img
-            class="w-96 z-10 mx-auto"
+            class="w-full z-10"
             src="./images/illustration-hero.svg"
             alt="Tablet Application"
           />
         </div>
-        <div class="w-80 mx-auto">
+        <div class="mx-8">
           <h1 class="text-center text-dark-blue font-semibold text-3xl">
             A Simple Bookmark Manager
           </h1>
@@ -85,7 +82,7 @@
             free.
           </p>
         </div>
-        <div class="flex justify-center gap-4">
+        <div class="flex justify-center gap-4 my-8">
           <button
             class="bg-soft-blue text-white py-3 px-4 rounded-md text-semibold"
           >
