@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -347,16 +352,28 @@
       </div>
     </main>
 
-    <footer class="bg-dark-blue mt-12 text-center py-12 px-8">
-      <img src="./images/logo-bookmark.svg" alt="Bookmark Logo" class="" />
-      <div class="flex flex-col">
+    <footer class="bg-dark-blue text-center p-12">
+      <img
+        src="./images/logo-bookmark-light.svg"
+        alt="Bookmark Logo"
+        class="mx-auto"
+      />
+      <div class="flex flex-col my-8 space-y-8">
         <a href="#features" class="uppercase text-white">Features</a>
         <a href="#download" class="uppercase text-white">Pricing</a>
         <a href="#contact" class="uppercase text-white">Contact</a>
       </div>
-      <div class="flex justify-center">
-        <img src="./images/icon-facebook.svg" alt="Facebook Logo" />
-        <img src="./images/icon-twitter.svg" alt="Twitter Logo" />
+      <div class="flex justify-center gap-8">
+        <img
+          src="./images/icon-facebook.svg"
+          alt="Facebook Logo"
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/icon-twitter.svg"
+          alt="Twitter Logo"
+          class="cursor-pointer"
+        />
       </div>
     </footer>
   </body>
